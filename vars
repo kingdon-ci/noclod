@@ -10,8 +10,9 @@ export ANTHROPIC_AUTH_TOKEN=not-used
 # This value is actually significant, the claude-code-proxy expects it
 export ANTHROPIC_AUTH_TOKEN=ignored-ansi-uses-network-auth
 
-export ANTHROPIC_MODEL="openai/groq-gpt-oss-20b"
-export ANTHROPIC_SMALL_FAST_MODEL="openai/groq-llama-3-8b"
+export ANTHROPIC_DEFAULT_OPUS_MODEL="openai/groq-gpt-oss-120b"
+export ANTHROPIC_DEFAULT_SONNET_MODEL="openai/groq-gpt-oss-20b"
+export ANTHROPIC_DEFAULT_HAIKU_MODEL="openai/groq-llama-3-8b"
 # export ANTHROPIC_MODEL="openai/groq-gpt-oss-120b"
 # export ANTHROPIC_SMALL_FAST_MODEL="openai/groq-llama-3-8b"
 #Did not work with tool calls
