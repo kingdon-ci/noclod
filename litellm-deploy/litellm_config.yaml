@@ -29,10 +29,10 @@ model_list:
       model: groq/compound-beta
       api_key: "os.environ/GROQ_API_KEY"
 
-#   - model_name: groq-moonshot-kimi-k2
-#     litellm_params:
-#       model: groq/moonshotai/kimi-k2-instruct
-#       api_key: "os.environ/GROQ_API_KEY"
+  - model_name: groq-moonshot-kimi-k2
+    litellm_params:
+      model: groq/moonshotai/kimi-k2-instruct-0905
+      api_key: "os.environ/GROQ_API_KEY"
 
   - model_name: groq-meta-llama-4-maverick
     litellm_params:
