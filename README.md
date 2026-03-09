@@ -1,4 +1,4 @@
-# Claude Code Evaluation
+# noclod (Claude Code Evaluation)
 
 ## Important Notice
 
@@ -13,6 +13,12 @@ This project is for **evaluation purposes only**. We are assessing the Claude Co
 ## Background
 
 You have been provided access to an OpenAI/AWS Bedrock endpoint for code assistance. While continue.dev is the officially sanctioned interface, we are exploring Claude Code as a potentially more effective way to interact with this endpoint.
+
+## Lore
+
+The name **noclod** is a testament to human (and AI) error. During initial testing of the Claude Android app's voice transcription, the phrase "no Claude" was vocalized and subsequently transcribed as "noclod." 
+
+We decided to embrace this "clod-like" interpretation. In this context, **noclod** serves as a reminder that we strive to be smarter than a lump of dirt, even when our tools occasionally suggest otherwise. It's a project dedicated to testing if Claude Code can live up to its name—or if it's just another clod in the field.
 
 ## Evaluation Goals
 
