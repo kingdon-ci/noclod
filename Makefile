@@ -1,4 +1,4 @@
-.PHONY: install-claude
+.PHONY: install-claude dev
 
 claude-code-proxy:
 	# There are competitive implementations of claude-code-proxy
@@ -7,3 +7,6 @@ claude-code-proxy:
 
 install-claude:
 	bun install -g @anthropic-ai/claude-code
+
+dev:
+	./start-dev.sh
