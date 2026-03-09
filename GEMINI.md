@@ -21,6 +21,7 @@ This project is a research and evaluation environment for **Claude Code**, focus
 ### Prerequisites
 *   [UV](https://github.com/astral-sh/uv) installed (use `hack/install-uv.sh`).
 *   [Bun](https://bun.sh/) installed (use `hack/install-bun.sh`).
+*   [Mocker](https://github.com/us/mocker) (required for LiteLLM on macOS; a frontend for the official Apple container runtime).
 
 ### Setup
 1.  **Clone Proxy & Install Claude:**

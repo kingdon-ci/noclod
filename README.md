@@ -27,6 +27,12 @@ We decided to embrace this "clod-like" interpretation. In this context, **noclod
 3. Identify potential benefits and drawbacks for official use cases.
 4. Gather data to support a potential request for official support and proper licensing.
 
+## Prerequisites
+
+- [UV](https://github.com/astral-sh/uv) (Python package manager)
+- [Bun](https://bun.sh/) (JavaScript runtime and package manager)
+- [Mocker](https://github.com/us/mocker) (A frontend for the official Apple-supported `container` runtime on macOS, used for running LiteLLM)
+
 ## Setup for Evaluation
 
 #### Clone the proxy repository
